@@ -1,0 +1,24 @@
+#!/bin/bash
+
+if ((EUID == 0)); then
+	echo "Do not run as root"
+	exit 1
+fi
+
+mapfile -t application_directories < "/opt/quick_ci_launcher"
+
+if test -z $1
+	then
+	for directory in "${application_directories[@]}"; do
+		key=${directory%=*}
+        value=${directory#*=}
+		cd /opt
+		echo $value
+		ls -1 --color $key
+	done
+exit 0
+fi
+
+cd /opt
+GAME_EXEC=$(find . -name $1)
+eval $GAME_EXEC
