@@ -1,0 +1,14 @@
+{
+    "no_time_to_play": "Games while fun...you really only have time for this on weekends",
+    "time_limit_reached": "You have reached your gaming limit for today",
+    "dir_map_configuration_location": "/opt/quick_ci_launcher",
+    "whitelisted_days": ["Saturday", "Sunday"],
+    "hide_dir_desc": true,
+    "alternative_desc": "Games Available:",
+    "script_dir_base": "/opt",
+    "time_saver_trigger": "/opt/ci_time_saver",
+    "first_warning_time": 10800,
+    "first_warning_hook": "/mnt/md0/custom-software/game-launcher/warn.sh",
+    "final_warning_time": 14400,
+    "final_warning_hook": "/mnt/md0/custom-software/game-launcher/final.sh"
+}
