@@ -1,0 +1,9 @@
+*.json
+*.sh
+*.txt
+*.wav
+generator
+scripts
+steam-data
+
+!examples/*

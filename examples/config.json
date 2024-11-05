@@ -1,0 +1,17 @@
+{
+    "Productivity": {
+        "AI LLM": {
+            "script": "/usr/local/bin/ai-llm"
+        },
+        "AI Stable Diffusion": {
+            "script": "/usr/local/bin/stable-diffusion"
+        },
+        "Finances": {
+            "script": "/usr/local/bin/finance"
+        }
+    },
+    "VR": {
+        "script": "/usr/local/bin/vr-host",
+        "ssh": "both"
+    }
+}

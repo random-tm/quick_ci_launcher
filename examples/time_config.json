@@ -1,0 +1,13 @@
+{
+    "no_time_to_play": "Games while fun...you really can't play them all day",
+    "whitelisted_days": [
+        "Saturday",
+        "Sunday"
+    ],
+    "time_limit_reached": "You have reached your gaming limit for today",
+    "first_warning_time": 10800,
+    "first_warning_hook": "./warn.sh",
+    "final_warning_time": 14400,
+    "final_warning_hook": "./final.sh",
+    "time_saver_trigger": "/tmp/.ci_time_saver"
+}
